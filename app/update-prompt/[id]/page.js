@@ -1,6 +1,7 @@
 import React from "react";
 import UpdatePrompt from "../page";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
+
 
 const UpdatePromptPage = () => {
   const router = useRouter();
